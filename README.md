@@ -21,7 +21,7 @@ A Streamlit web app that lets you **upload or record audio**, convert it to text
 - [Streamlit](https://streamlit.io/)
 - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
 - [TextBlob](https://textblob.readthedocs.io/en/dev/)
-- [pydub (optional)](https://github.com/jiaaro/pydub) – if handling `.mp3` files
+- [pydub (optional)](https://github.com/jiaaro/pydub) 
 
 ---
 
