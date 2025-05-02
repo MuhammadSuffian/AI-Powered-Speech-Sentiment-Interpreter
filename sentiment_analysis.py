@@ -3,7 +3,15 @@ import speech_recognition as sr
 from textblob import TextBlob
 import os
 import tempfile
-
+st.set_page_config(page_title="Voice Sentiment Analyzer", page_icon="🎙️",
+                      menu_items={
+        'About': (
+            "A Streamlit web app that lets you upload or record audio, convert it to text using Google Speech Recognition, and analyze the sentiment of the transcribed text using TextBlob.\n\n"
+            "Developer:\n\n"
+            "• M. Suffian Tafoor\n\n"
+        )
+    }
+)
 st.title("🎙️ Voice Sentiment Analyzer")
 
 # Create tabs for different input methods
